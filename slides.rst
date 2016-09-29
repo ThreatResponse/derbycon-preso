@@ -213,6 +213,9 @@ IR in AWS: Preparation
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: static/awesome-ir-1.png
+    :align: center
+    :width: 640px
+   
 
 .. note:: Alex Speaks
 
@@ -224,6 +227,8 @@ IR in AWS: Preparation
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: static/awesome-ir-2.png
+    :align: center
+    :width: 640px
 
 .. note:: Alex Speaks
 
@@ -240,6 +245,8 @@ IR in AWS: Preparation
  - Security category includes Incident Response, Malware Analysis, etc
 
 .. image:: static/awesome-ir-3.png
+    :align: center
+    :width: 460px
 
 .. note:: Alex Speaks
 
@@ -282,6 +289,8 @@ IR in AWS: Prep - Hardening
 -------------------------------------------------------------------------------
 
 .. image:: static/aws_trusted_advisor.png
+    :align: center
+    :width: 640px
 
 
 .. note:: Alex Speaks
@@ -309,6 +318,9 @@ IR in AWS: Prep - Hardening
 -------------------------------------------------------------------------------
 
 .. image:: static/config-start.png
+    :align: center
+    :width: 640px
+
 
 `AWS Blog: Dynamic Compliance Checking for Cloud Resources <https://aws.amazon.com/blogs/aws/aws-config-rules-dynamic-compliance-checking-for-cloud-resources/>`_
 
@@ -334,6 +346,7 @@ IR in AWS: Prep - Hardening
 
 .. image:: static/prowler.png
     :align: center
+    :width: 640px
 
 .. note::
   By our friend Toni De La Fuente
@@ -484,6 +497,8 @@ Access Advisor
 -------------------------------
 
 .. image:: static/access-advisor.png
+    :align: center
+    :width: 640px
 
 .. note:: Alex Speaks
     Access Advisor is a tab located in the IAM Web console
@@ -585,6 +600,8 @@ CloudTrail
 -------------------------------
 
 .. image:: static/cloudtrail.png
+    :align: center
+    :width: 640px
 
 .. note:: Andrew Speaks
 
@@ -597,6 +614,8 @@ CloudWatch
 -------------------------------
 
 .. image:: static/cloudwatch-createalarm.png
+    :align: center
+    :width: 640px
 
 .. note:: Andrew Speaks
 
@@ -609,6 +628,8 @@ IR in AWS: Identification
 
 
 .. image:: static/cloudwatch-notification.png
+    :align: center
+    :width: 640px
 
 .. note:: Andrew Speaks
     The CloudWatchAlarmsForCloudTrail CloudFormationTemplate.
@@ -975,7 +996,8 @@ Snapshot attached disks.
 Analyze with ThreatResponse Workstation.
 
 .. image:: static/analyze-disk.png
-    :width: 840px
+    :align: center
+    :width: 640px
 
 .. note:: Alex Speaks
 
@@ -990,7 +1012,8 @@ Analyze Evidence: EC2 Disks
 
 
 .. image:: static/disk-processing2.svg
-    :width: 840px
+    :align: center
+    :width: 640px
 
 .. note:: Alex Speaks
     Within threatresponse workstation we can spin up an AWS ec2 image and process the disk into a .plaso file using log2timeline.
@@ -1007,7 +1030,8 @@ Analyze Evidence: EC2 Disks
 `TimeSketch <https://github.com/google/timesketch>`_
 
 .. image:: static/timesketch.png
-    :width: 840px
+    :align: center
+    :width: 640px
 
 .. note:: Alex Speaks
     We can view our .plaso file using the TimeSketch tool. TimeSketch is a tool made by Google, but they dont consider it a google project, per se. It is a handy tool to analyze timeline events and mark or collaborate on signifigant findings.
@@ -1054,7 +1078,8 @@ Analyze Evidence: Memory
 =====================================
 
 .. image:: static/analyze-view-memory2.png
-    :width: 840px
+    :align: center
+    :width: 640px
 
 .. note:: Alex Speaks
     Once the memory lime file is in s3 bucket, you launch volatility from within the ThreatResponse Workstation to analyse the memory.
@@ -1065,7 +1090,8 @@ Analyze Evidence: Memory
 =====================================
 
 .. image:: static/analyze-view-terminal2.png
-    :width: 840px
+    :align: center
+    :width: 640px
 
 .. note:: Alex Speaks
     You can analyze in the cloud so you don't have to download the memory file to your local machine.

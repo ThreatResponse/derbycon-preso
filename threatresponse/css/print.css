@@ -13,6 +13,10 @@ body {
     left: 0 !important;
     top: 0 !important;
 }
+.fixed-header {
+    display: none;
+}
+
 .step {
     position: static !important;
     page-break-after: always;
@@ -23,6 +27,16 @@ body {
     -webkit-transform: none !important;
     left: 0 !important;
     top: 0 !important;
+    min-height: 700px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #fdf6e3;
+
+}
+.img {
+  max-width: 75%;
+  height: auto;
 }
 #hovercraft-help {
     display: none;
